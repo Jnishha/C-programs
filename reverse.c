@@ -10,5 +10,6 @@
         rev = rev * 10 + rem;
         n = n / 10;
     }
-    
+    printf("The reverse of %d is %d",n,rev);
+    return 0;
 }
