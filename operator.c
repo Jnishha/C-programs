@@ -8,3 +8,18 @@ int main()
     scanf("%d%d", &num1, &num2);
     printf("Enter your choice?\n1. Addition(+)\n2. Subtraction(-)\n3. Multiplication(*)\n4. Division(/)");
     scanf("%d", &choice);
+    switch (choice)
+    {
+        case 1:
+        result = num1 + num2;
+        printf("%f", result);
+        case 2:
+        result = num1 - num2;
+        printf("%f", result);
+        case 3:
+        result = num1 * num2;
+        printf("%f", result);
+        case 4:
+        result = num1 / num2;
+        printf("%f", result);
+     
