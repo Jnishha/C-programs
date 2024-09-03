@@ -13,17 +13,22 @@ int main()
         case 1:
         result = num1 + num2;
         printf("%f", result);
+        break;
         case 2:
         result = num1 - num2;
         printf("%f", result);
+        break;
         case 3:
         result = num1 * num2;
         printf("%f", result);
+        break;
         case 4:
         result = num1 / num2;
         printf("%f", result);
+        break;
         default:
         printf("Invalid choice");
+        break;
     }
     return 0;
 }
