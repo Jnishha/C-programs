@@ -6,7 +6,7 @@ int main()
     float result;
     printf("Enter first and second number: ");
     scanf("%d%d", &num1, &num2);
-    printf("Enter your choice?\n1. Addition(+)\n2. Subtraction(-)\n3. Multiplication(*)\n4. Division(/)");
+    printf("Enter your choice?\n1. Addition(+)\n2. Subtraction(-)\n3. Multiplication(*)\n4. Division(/)\n");
     scanf("%d", &choice);
     switch (choice)
     {
