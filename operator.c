@@ -22,4 +22,8 @@ int main()
         case 4:
         result = num1 / num2;
         printf("%f", result);
-     
+        default:
+        printf("Invalid choice");
+    }
+    return 0;
+}
